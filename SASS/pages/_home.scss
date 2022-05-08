@@ -1,0 +1,26 @@
+.section-hero__container {
+    display: flex;
+    height: 35rem;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid $color-main;
+
+
+    &-1 {
+
+        background-color: $color-one;
+
+    }
+
+    &-2 {
+        background-color: $color-three;
+    }
+
+    &-3 {
+        background-color: transparent;
+    }
+
+    &-4 {
+        background-color: $color-two;
+    }
+}
